@@ -1,0 +1,18 @@
+.container{
+    width: 80%;
+}
+sup{
+    color: blueviolet;
+}
+sup:hover{
+    color:black;
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+
+div.h1{
+    background-color: gray;
+    opacity: 0.2;
+}
