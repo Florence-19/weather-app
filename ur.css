@@ -11,8 +11,6 @@ img{
     height: 100px;
     width: 200px;
 }
-
-div.h1{
-    background-color: gray;
-    opacity: 0.2;
+div a{
+    color: rgb(255, 0, 157);
 }
