@@ -4,13 +4,47 @@
 sup{
     color: blueviolet;
 }
-sup:hover{
+sup{
     color:black;
 }
 img{
-    height: 100px;
+    height: 200px;
     width: 200px;
+    padding: 10px;
 }
 div a{
     color: rgb(255, 0, 157);
+}
+#state:hover{
+    background-color: blueviolet;
+    text-align: center;
+    opacity: 0.3px;
+}
+
+footer{
+    text-align: center;
+}
+#state{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px;
+}
+
+div.time,
+.sunset{
+    text-align: center;
+    font-weight: 50;
+    font: 2em impact;
+}
+
+sup .deg{
+    color: black;
+}
+
+ui.png,
+ui1.png,
+u13.png{
+    height: 200px;
+    width: 100px;
 }
