@@ -1,16 +1,17 @@
 .container{
     width: 80%;
+    border: 1px solid gainsboro;
 }
 sup{
     color: blueviolet;
 }
 sup{
-    color:black;
+    color:black
 }
 img{
     height: 200px;
     width: 200px;
-    padding: 10px;
+   padding: 5px;
 }
 div a{
     color: rgb(255, 0, 157);
@@ -19,6 +20,13 @@ div a{
     background-color: blueviolet;
     text-align: center;
     opacity: 0.3px;
+}
+
+#wind,
+#temp,
+#humidity{
+    background-color: aliceblue;
+    
 }
 
 footer{
@@ -40,11 +48,4 @@ div.time,
 
 sup .deg{
     color: black;
-}
-
-ui.png,
-ui1.png,
-u13.png{
-    height: 200px;
-    width: 100px;
 }
