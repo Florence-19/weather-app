@@ -34,13 +34,19 @@ let rare = date.getDate();
 let mou = new Date;
 function current(kin) {
 let hours = kin.getHours();
+
     let minutes = kin.getMinutes();
     if (minutes <= 10){
-        return `<b>${hours}:0${minutes}`;
+       minutes = `0${minutes}`;
     }
     
-    return `<b>${hours}:${minutes}</b>`;
+    return `${hours}:${minutes}`;
 } 
+
+function search(event){
+    event.preventDefault();
+    
+}
 
 let dat = document.querySelector("div.date");
 dat.innerHTML = formatdate(cur);
@@ -52,5 +58,8 @@ time.innerHTML = current(mou);
 
 let apikey ="52972406f32773a9b6df9fc438d70ab1";
 
-<script>https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-</script>
+
+
+let form = document.querySelector("form");
+form.addEventListener("submit", type);
+
