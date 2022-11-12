@@ -5,6 +5,7 @@
 <meta  name="viewpoint" content="width=device-width, initial-scale=1.0"/>
 <meta http=-equiv="X-UA-compatible" content="ie=edge"/>
 <title>WEATHER APP</title>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 <link rel="stylesheet" href="ur.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
@@ -13,7 +14,7 @@
 <header>
 <h1><strong>TIFE</strong></h1>
 </header>
-<form class="row g-3">
+<form class="row g-3" id="form">
     <div class="col-auto">
       <label for="search" class="visually-hidden">search a city</label>
       <input type="search" class="form-control" id="find-a-city" placeholder="Search a city">
