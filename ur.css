@@ -8,10 +8,16 @@ sup{
 sup{
     color:black
 }
+#col-temp1{
+    font-size: 40px;
+}
 img{
     height: 200px;
     width: 200px;
    padding: 5px;
+}
+#deg2{
+    font-size: ;
 }
 div a{
     color: rgb(255, 0, 157);
