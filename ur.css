@@ -3,18 +3,43 @@
     border: 1px solid gainsboro;
 }
 sup{
-    color: blueviolet;
-}
-sup{
     color:black
 }
 #col-temp1{
     font-size: 40px;
 }
-img{
+i{
+    color: blueviolet;
+}
+#F{
+    color: blue;
+    font-size: 15px;
+    position: relative;
+    top: -10px
+}
+#img{
     height: 200px;
-    width: 200px;
-   padding: 5px;
+    width: 160px;
+}
+
+#logo1{
+    width: 100px;
+    height: 120px;
+}
+#C{
+    color: blue;
+    font-size: 15px;
+    position: relative;
+    top: -24px
+}
+
+#C:hover{
+    text-decoration: underline;
+}
+
+
+#o{
+    font-size: 5px;
 }
 #deg2{
     font-size: ;
@@ -23,6 +48,7 @@ div a{
     color: rgb(255, 0, 157);
 }
 #state:hover{
+    text-align: center;
     background-color: blueviolet;
     text-align: center;
     opacity: 0.3px;
